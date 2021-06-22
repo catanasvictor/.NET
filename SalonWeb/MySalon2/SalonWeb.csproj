@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-MySalon2-98B303D8-5768-4886-9D97-66452F2BD600</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210426142930_InitialCreate.cs" />
+    <Compile Remove="Migrations\20210426142930_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20210601173741_Mymigration.cs" />
+    <Compile Remove="Migrations\20210601173741_Mymigration.Designer.cs" />
+    <Compile Remove="Migrations\20210601174253_Mymigration.cs" />
+    <Compile Remove="Migrations\20210601174253_Mymigration.Designer.cs" />
+    <Compile Remove="Migrations\20210602072255_init.cs" />
+    <Compile Remove="Migrations\20210602072255_init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="jQuery.UI.Combined" Version="1.12.1" />
+    <PackageReference Include="Microsoft.AspNet.Providers.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.13">
+    <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="MySQL.Data.Entities" Version="6.8.3" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
+    <PackageReference Include="servicestack.text" Version="5.11.0" />
+    <PackageReference Include="SwiftExcel" Version="1.0.8" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>
